@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #FFE4E8;
+/* body {
+    background-color: #E3F2FD;
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -16,6 +16,22 @@ body {
         radial-gradient(circle at 15% 85%, #ffb3c1 0%, transparent 40%),
         radial-gradient(circle at 85% 15%, #ff8fa3 0%, transparent 40%),
         radial-gradient(circle at 50% 50%, #fff0f3 0%, transparent 60%);
+} */
+body {
+    background-color: #F8F0FB; /* Very light neutral base */
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image:
+        /* Left Side: Lavender */
+        radial-gradient(circle at 0% 50%, #E1BEE7 0%, transparent 50%),
+        /* Right Side: Pink */
+        radial-gradient(circle at 100% 50%, #FFB3C1 0%, transparent 50%),
+        /* Center: Soft white glow to blend them */
+        radial-gradient(circle at 50% 50%, #FFFFFF 0%, transparent 60%);
 }
 
 /* Floating hearts background */
